@@ -1,0 +1,125 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #f2f6e9;
+ }
+ .header {
+    position: relative;
+    background: url('../img/milkbg.jpg') no-repeat center center/cover;
+    height: 500px;
+    color: white; 
+    text-align: center;
+  }
+  .description {
+    left: 50%;
+    top: 45%;
+    text-align: center;
+   }
+   .description h1 {
+    color: #fff;
+    font-size: 100px;
+    margin-top: 50px;
+   }
+   .description p {
+    color: #fff;
+    font-size: 25px;
+   }
+   .overlay {
+    position: absolute;
+    top: 100px;
+    left: 350px;
+    width: 50%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .cookie-product {
+    border: 1px #ccc;
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .red-box {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: smaller;
+}
+
+.background {
+    background: #dedec8;
+    padding: 4em 0;
+}
+.page-footer {
+    background-color: #19a7c0;
+    color: white;
+    padding: 60px 0 30px;
+    text-align: center;
+    font-size: large;
+}
+  @media (max-width: 991.98px) {
+    @media (max-width: 991.98px) {
+        .header {
+            height: 400px;
+        }
+    
+        .overlay {
+            left: 200px;
+        }
+    
+        .description {
+            left: 0;
+            top: 10%;
+            transform: none;
+        }
+    
+        .description h1 {
+            font-size: 50px;
+        }
+    
+        .description p {
+            font-size: 16px;
+        }
+    
+        .team .card-columns {
+            column-count: 2;
+        }
+    
+        .team .card {
+            margin-bottom: 20px;
+        }
+    }
+    
+    @media (max-width: 575.98px) {
+        .header {
+            height: 300px;
+        }
+    
+        .overlay {
+            left: 0;
+            top: 5%;
+        }
+    
+        .description {
+            top: 10%;
+        }
+    
+        .description h1 {
+            font-size: 40px;
+        }
+    
+        .description p {
+            font-size: 14px;
+        }
+    
+        .team .card-columns {
+            column-count: 1;
+        }
+    
+        .team .card {
+            margin-bottom: 20px;
+        }
+    }
+  }
